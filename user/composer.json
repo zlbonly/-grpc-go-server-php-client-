@@ -1,0 +1,13 @@
+{
+  "name": "grpc-go-php",
+  "require": {
+    "grpc/grpc": "^v1.12.0"
+  },
+  "autoload":{
+    "psr-4":{
+      "GPBMetadata\\":"GPBMetadata/",
+      "User\\":"User/"
+    }
+  }
+}
+
