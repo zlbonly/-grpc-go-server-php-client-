@@ -4,6 +4,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 use User\UserClient;
 
+
 // 创建客户端实例
 $userClient = new UserClient('127.0.0.1:50051', [
     'credentials' => Grpc\ChannelCredentials::createInsecure()
